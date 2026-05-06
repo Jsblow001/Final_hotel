@@ -1,4 +1,4 @@
-# 🏨 Ciel Hotel (호텔 통합 예약 및 관리 시스템)
+<img width="627" height="602" alt="image" src="https://github.com/user-attachments/assets/8b573131-ca0f-4b19-bdd1-afea9413ca07" /># 🏨 Ciel Hotel (호텔 통합 예약 및 관리 시스템)
 > **파이널 프로젝트 (팀 프로젝트)**
 > 
 > 호텔 'Le Ciel'의 브랜드 가치를 결정하는 **사용자 메인 UI**와 운영 효율을 위한 **통합 관리자 시스템**을 구축했습니다. **Docker와 Jenkins를 활용한 CI/CD 환경**에서 **Oracle DB**를 연동하여, 프로모션 혜택이 예약 결제에 실시간 적용되는 로직과 수익 관리 대시보드를 전담 개발했습니다.
@@ -43,7 +43,8 @@
 - **설계 포인트:** 프로모션(Promotion)과 예약(Reservation) 간의 연동을 위해 Oracle의 관계형 모델을 설계하고, 효율적인 콘텐츠 관리를 위해 게시판 테이블을 모듈화했습니다.
 
 <div align="center">
-  <img src="https://via.placeholder.com/800x400.png?text=Le+Ciel+Hotel+Project+ERD" width="800" alt="Le Ciel ERD"/>
+  <img width="628" height="603" alt="스크린샷 2026-05-06 133731" src="https://github.com/user-attachments/assets/ff1b0d75-63c9-4c1c-8086-ceb7faee40a7" />
+
 </div>
 
 <br>
