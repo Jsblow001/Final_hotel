@@ -1,4 +1,4 @@
-<img width="627" height="602" alt="image" src="https://github.com/user-attachments/assets/8b573131-ca0f-4b19-bdd1-afea9413ca07" /># 🏨 Ciel Hotel (호텔 통합 예약 및 관리 시스템)
+# 🏨 Ciel Hotel (호텔 통합 예약 및 관리 시스템)
 > **파이널 프로젝트 (팀 프로젝트)**
 > 
 > 호텔 'Le Ciel'의 브랜드 가치를 결정하는 **사용자 메인 UI**와 운영 효율을 위한 **통합 관리자 시스템**을 구축했습니다. **Docker와 Jenkins를 활용한 CI/CD 환경**에서 **Oracle DB**를 연동하여, 프로모션 혜택이 예약 결제에 실시간 적용되는 로직과 수익 관리 대시보드를 전담 개발했습니다.
@@ -40,12 +40,18 @@
 <br>
 
 ## 🏗 4. DB 설계 (ERD)
-- **설계 포인트:** 프로모션(Promotion)과 예약(Reservation) 간의 연동을 위해 Oracle의 관계형 모델을 설계하고, 효율적인 콘텐츠 관리를 위해 게시판 테이블을 모듈화했습니다.
+
+**설계 포인트:** 
+호텔 예약 시스템의 비즈니스 로직을 충실히 반영하기 위해 **유연한 할인 정책 적용**과 **데이터 기반 관리 효율성**에 집중하여 설계했습니다.
+
+### 💡 Key Design Features
+* **동적 프로모션 및 예약 연동:** `RESERVATION`과 `PROMOTION_MASTER` 사이의 N:M 관계를 해소하기 위해 `RESERVATION_PROMOTION_MAPPING` 테이블을 설계했습니다. 이를 통해 하나의 예약에 다중 프로모션(할인)을 적용할 수 있는 유연성을 확보했습니다.
+* **데이터 기반 의사결정 지원:** 대규모 데이터 환경에서도 관리자가 실시간으로 운영 현황을 파악할 수 있도록, 일별 매출(`DAILY_REVENUE_STATS`) 및 프로모션 성과(`DAILY_PROMOTION_STATS`) 통계 테이블을 별도로 구축하여 집계 성능을 최적화했습니다.
+* **통합 고객 커뮤니케이션 관리:** `QUESTIONS`와 `ANSWERS` 테이블을 1:N 관계로 설계하여 체계적인 고객 응대 로직을 구현했으며, 자주 묻는 질문(`FAQS`)과 공지사항(`NOTICES`)을 모듈화하여 관리 효율을 높였습니다.
+* **멀티 브랜치 확장성:** `TBL_HOTEL`을 중심으로 모든 주요 테이블이 관계를 맺도록 설계하여, 서울/잠실 등 지점별 독립적인 데이터 관리 및 브랜드 통합 관리가 동시에 가능하도록 구현했습니다.
 
 <div align="center">
-<img width="1059" height="967" alt="스크린샷 2026-05-06 133900" src="https://github.com/user-attachments/assets/e38f455a-bcfd-46d1-bf59-f4c01039a4a4" />
-
-
+  <img width="100%" alt="스크린샷 2026-05-06 133900" src="https://github.com/user-attachments/assets/e38f455a-bcfd-46d1-bf59-f4c01039a4a4" />
 </div>
 
 <br>
