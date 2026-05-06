@@ -43,7 +43,8 @@
 - **설계 포인트:** 프로모션(Promotion)과 예약(Reservation) 간의 연동을 위해 Oracle의 관계형 모델을 설계하고, 효율적인 콘텐츠 관리를 위해 게시판 테이블을 모듈화했습니다.
 
 <div align="center">
-  <img width="628" height="603" alt="스크린샷 2026-05-06 133731" src="https://github.com/user-attachments/assets/ff1b0d75-63c9-4c1c-8086-ceb7faee40a7" />
+<img width="1059" height="967" alt="스크린샷 2026-05-06 133900" src="https://github.com/user-attachments/assets/e38f455a-bcfd-46d1-bf59-f4c01039a4a4" />
+
 
 </div>
 
