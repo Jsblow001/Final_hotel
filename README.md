@@ -65,6 +65,41 @@
 
 <br>
 
+<br>
+
+## 🖥 6. 실행 화면
+
+'Le Ciel' 호텔 서비스의 주요 가동 화면입니다. 각 이미지를 클릭하면 관련 소스 코드가 포함된 GitHub 저장소로 이동합니다.
+
+### 🏠 메인 시스템
+<div align="center">
+  <a href="https://github.com/Jsblow001/SemiProject">
+    <img width="80%" alt="메인 화면" src="https://github.com/user-attachments/assets/18fa1cdf-4e94-4718-92f9-5bd0a421e5f2" />
+  </a>
+  <p>▲ 브랜드 아이덴티티를 강조한 메인 페이지 레이아웃</p>
+</div>
+
+<br>
+
+### 🎁 프로모션 및 예약 서비스
+<div align="center">
+  <a href="https://github.com/Jsblow001/SemiProject">
+    <img width="80%" alt="프로모션 화면" src="https://github.com/user-attachments/assets/e38f455a-bcfd-46d1-bf59-f4c01039a4a4" />
+  </a>
+  <p>▲ 실시간 할인 로직이 적용되는 프로모션 안내 및 예약 연동 화면</p>
+</div>
+
+<br>
+
+### 📂 Repository 바로가기
+<div align="center">
+  <a href="https://github.com/Jsblow001/SemiProject">
+    <img src="https://img.shields.io/badge/GitHub-Project_Source_Code-181717?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+</div>
+
+<br>
+
 ## 📂 7. 프로젝트 구조 (My Part 중심)
 ```text
 /* Backend: com.spring.app */
