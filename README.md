@@ -74,7 +74,7 @@
 ### 🏠 메인 시스템
 <div align="center">
   <a href="https://github.com/Jsblow001/SemiProject">
-    <img width="80%" alt="메인 화면" src="https://github.com/user-attachments/assets/18fa1cdf-4e94-4718-92f9-5bd0a421e5f2" />
+    <img width="80%" alt="메인 화면" src="https://github.com/user-attachments/assets/9056f6eb-517d-4e2d-837b-6b71c9c1f504" />
   </a>
   <p>▲ 브랜드 아이덴티티를 강조한 메인 페이지 레이아웃</p>
 </div>
@@ -84,18 +84,9 @@
 ### 🎁 프로모션 및 예약 서비스
 <div align="center">
   <a href="https://github.com/Jsblow001/SemiProject">
-    <img width="80%" alt="프로모션 화면" src="https://github.com/user-attachments/assets/e38f455a-bcfd-46d1-bf59-f4c01039a4a4" />
+    <img width="80%" alt="프로모션 화면" src="https://github.com/user-attachments/assets/4c1f7228-1804-4f2a-a7cb-1faea7f5e272" />
   </a>
   <p>▲ 실시간 할인 로직이 적용되는 프로모션 안내 및 예약 연동 화면</p>
-</div>
-
-<br>
-
-### 📂 Repository 바로가기
-<div align="center">
-  <a href="https://github.com/Jsblow001/SemiProject">
-    <img src="https://img.shields.io/badge/GitHub-Project_Source_Code-181717?style=for-the-badge&logo=github&logoColor=white"/>
-  </a>
 </div>
 
 <br>
