@@ -69,21 +69,17 @@
 
 ## 🖥 6. 실행 화면
 
-'Le Ciel' 호텔 서비스의 주요 가동 화면입니다. 각 이미지를 클릭하면 관련 소스 코드가 포함된 GitHub 저장소로 이동합니다.
+'Le Ciel' 호텔 서비스의 주요 가동 화면입니다.
 
 <div align="center">
   <table style="border: none; border-collapse: collapse;">
     <tr>
       <td align="center" width="50%" style="border: none;">
-        <a href="https://github.com/Jsblow001/SemiProject">
           <img src="https://github.com/user-attachments/assets/9056f6eb-517d-4e2d-837b-6b71c9c1f504" width="100%" alt="메인 화면"/>
-        </a>
         <br><b>🏠 메인 시스템</b>
       </td>
       <td align="center" width="50%" style="border: none;">
-        <a href="https://github.com/Jsblow001/SemiProject">
           <img src="https://github.com/user-attachments/assets/a2ded121-a9ef-4999-9a44-9c4b9af17538" width="100%" alt="프로모션 화면"/>
-        </a>
         <br><b>🎁 프로모션 및 예약 서비스</b>
       </td>
     </tr>
