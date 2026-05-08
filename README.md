@@ -84,7 +84,7 @@
 ### 🎁 프로모션 및 예약 서비스
 <div align="center">
   <a href="https://github.com/Jsblow001/SemiProject">
-    <img width="80%" alt="프로모션 화면" src="https://github.com/user-attachments/assets/4c1f7228-1804-4f2a-a7cb-1faea7f5e272" />
+    <img width="80%" alt="프로모션 화면" src="https://github.com/user-attachments/assets/a2ded121-a9ef-4999-9a44-9c4b9af17538" />
   </a>
   <p>▲ 실시간 할인 로직이 적용되는 프로모션 안내 및 예약 연동 화면</p>
 </div>
